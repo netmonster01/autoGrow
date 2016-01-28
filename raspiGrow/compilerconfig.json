@@ -1,0 +1,142 @@
+﻿[
+  {
+    "outputFile": "static/css/raspi.css",
+    "inputFile": "static/css/raspi.less"
+  },
+  {
+    "outputFile": "static/css/build.css",
+    "inputFile": "static/css/build.less"
+  },
+  {
+    "outputFile": "static/css/mixins.css",
+    "inputFile": "static/css/mixins.less"
+  },
+  {
+    "outputFile": "static/css/variables.css",
+    "inputFile": "static/css/variables.less"
+  },
+  {
+    "outputFile": "static/css/mixins/alerts.css",
+    "inputFile": "static/css/mixins/alerts.less"
+  },
+  {
+    "outputFile": "static/css/mixins/background-variant.css",
+    "inputFile": "static/css/mixins/background-variant.less"
+  },
+  {
+    "outputFile": "static/css/mixins/border-radius.css",
+    "inputFile": "static/css/mixins/border-radius.less"
+  },
+  {
+    "outputFile": "static/css/mixins/buttons.css",
+    "inputFile": "static/css/mixins/buttons.less"
+  },
+  {
+    "outputFile": "static/css/mixins/center-block.css",
+    "inputFile": "static/css/mixins/center-block.less"
+  },
+  {
+    "outputFile": "static/css/mixins/clearfix.css",
+    "inputFile": "static/css/mixins/clearfix.less"
+  },
+  {
+    "outputFile": "static/css/mixins/forms.css",
+    "inputFile": "static/css/mixins/forms.less"
+  },
+  {
+    "outputFile": "static/css/mixins/grid.css",
+    "inputFile": "static/css/mixins/grid.less"
+  },
+  {
+    "outputFile": "static/css/mixins/gradients.css",
+    "inputFile": "static/css/mixins/gradients.less"
+  },
+  {
+    "outputFile": "static/css/mixins/grid-framework.css",
+    "inputFile": "static/css/mixins/grid-framework.less"
+  },
+  {
+    "outputFile": "static/css/mixins/hide-text.css",
+    "inputFile": "static/css/mixins/hide-text.less"
+  },
+  {
+    "outputFile": "static/css/mixins/image.css",
+    "inputFile": "static/css/mixins/image.less"
+  },
+  {
+    "outputFile": "static/css/mixins/labels.css",
+    "inputFile": "static/css/mixins/labels.less"
+  },
+  {
+    "outputFile": "static/css/mixins/list-group.css",
+    "inputFile": "static/css/mixins/list-group.less"
+  },
+  {
+    "outputFile": "static/css/mixins/nav-divider.css",
+    "inputFile": "static/css/mixins/nav-divider.less"
+  },
+  {
+    "outputFile": "static/css/mixins/vendor-prefixes.css",
+    "inputFile": "static/css/mixins/vendor-prefixes.less"
+  },
+  {
+    "outputFile": "static/css/mixins/nav-vertical-align.css",
+    "inputFile": "static/css/mixins/nav-vertical-align.less"
+  },
+  {
+    "outputFile": "static/css/mixins/opacity.css",
+    "inputFile": "static/css/mixins/opacity.less"
+  },
+  {
+    "outputFile": "static/css/mixins/text-overflow.css",
+    "inputFile": "static/css/mixins/text-overflow.less"
+  },
+  {
+    "outputFile": "static/css/mixins/text-emphasis.css",
+    "inputFile": "static/css/mixins/text-emphasis.less"
+  },
+  {
+    "outputFile": "static/css/mixins/table-row.css",
+    "inputFile": "static/css/mixins/table-row.less"
+  },
+  {
+    "outputFile": "static/css/mixins/tab-focus.css",
+    "inputFile": "static/css/mixins/tab-focus.less"
+  },
+  {
+    "outputFile": "static/css/mixins/size.css",
+    "inputFile": "static/css/mixins/size.less"
+  },
+  {
+    "outputFile": "static/css/mixins/responsive-visibility.css",
+    "inputFile": "static/css/mixins/responsive-visibility.less"
+  },
+  {
+    "outputFile": "static/css/mixins/resize.css",
+    "inputFile": "static/css/mixins/resize.less"
+  },
+  {
+    "outputFile": "static/css/mixins/pagination.css",
+    "inputFile": "static/css/mixins/pagination.less"
+  },
+  {
+    "outputFile": "static/css/mixins/panels.css",
+    "inputFile": "static/css/mixins/panels.less"
+  },
+  {
+    "outputFile": "static/css/mixins/progress-bar.css",
+    "inputFile": "static/css/mixins/progress-bar.less"
+  },
+  {
+    "outputFile": "static/css/mixins/reset-filter.css",
+    "inputFile": "static/css/mixins/reset-filter.less"
+  },
+  {
+    "outputFile": "static/css/mixins/reset-text.css",
+    "inputFile": "static/css/mixins/reset-text.less"
+  },
+  {
+    "outputFile": "static/css/bootstrap-switch.css",
+    "inputFile": "static/css/bootstrap-switch.less"
+  }
+]

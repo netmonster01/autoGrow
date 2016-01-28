@@ -1,0 +1,36 @@
+﻿
+body
+{
+    color:white;
+    background-color: #333333;
+}
+
+.container-fluid {
+  /*background-color: #000;*/
+}
+
+.temp {
+    font-size: 1.5em;
+}
+.temp-low {
+
+}
+.temp-inrange {
+
+}
+.temp-high {
+    color:red;
+}
+/*humidity*/
+.humidity {
+    font-size: 1.5em;
+}
+.humidity-low {
+     color:blue;
+}
+.humidity-inrange {
+     color:green;
+}
+.humidity-high {
+    color:red;
+}

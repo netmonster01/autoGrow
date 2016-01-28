@@ -1,0 +1,49 @@
+﻿body {
+  color: #FFF;
+  background-color: #333333;
+}
+.container-fluid {
+  /*background-color: #000;*/
+}
+.temp {
+  font-size: 1.5em;
+}
+.temp-low {
+  color: #00214D;
+}
+.temp-inrange {
+  color: #5cb85c;
+}
+.temp-high {
+  background-color: #d9534f;
+  color: #FFF;
+}
+/*humidity*/
+.humidity {
+  font-size: 1.5em;
+}
+.humidity-low {
+  color: #00214D;
+}
+.humidity-inrange {
+  background-color: #5cb85c;
+  color: #FFF;
+}
+.humidity-high {
+  color: #d9534f;
+}
+.devices {
+  background-color: #FFF;
+  color: #999;
+}
+.active,
+.inactive {
+  font-size: 40px;
+  cursor: pointer;
+}
+i.active {
+  color: #5cb85c;
+}
+i.inactive {
+  color: #d9534f;
+}
