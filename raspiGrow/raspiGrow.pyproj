@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="raspiGrow.py" />
+    <Compile Include="raspiSignalR.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="timer.py">
       <SubType>Code</SubType>
     </Compile>
@@ -34,6 +37,7 @@
       <SubType>Content</SubType>
       <DependentUpon>compilerconfig.json</DependentUpon>
     </Content>
+    <Content Include="requirements.txt" />
     <Content Include="static\app\controls\raspberryPiSettingsCtrls.js" />
     <Content Include="static\app\controls\raspberryPiDashboardCtrls.js" />
     <Content Include="static\app\services\statusMapService.js" />

@@ -18,8 +18,8 @@ raspberryPiDashboardCtrls.controller('raspberryPiDashboardCtrls', ['$scope', '$r
 
       var degreesSymbol = '\u00B0';
       $scope.temp = '70' + degreesSymbol + ' F';
-      $scope.actTemp = 40.0;
-      $scope.actHumidity = 80;
+      $scope.actTemp = 70.0;
+      $scope.actHumidity = 50;
       $scope.humidity = '40% RH';
       $scope.statusTopLights = true;
       $scope.statusBottomLights = true;

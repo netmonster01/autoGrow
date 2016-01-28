@@ -57,3 +57,8 @@ i.inactive {
   margin: 10px;
   padding: 10px;
 }
+.well {
+  background-color: #000 !important;
+  color: #FFF !important;
+  background-image: linear-gradient(to bottom, #000 0%, #000 100%);
+}
