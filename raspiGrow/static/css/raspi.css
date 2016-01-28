@@ -1,18 +1,21 @@
 ﻿body {
   color: #FFF;
-  background-color: #333333;
+  background-color: #333;
 }
 .container-fluid {
   /*background-color: #000;*/
 }
+/* temperature*/
 .temp {
-  font-size: 1.5em;
+  font-size: 5em;
 }
 .temp-low {
-  color: #00214D;
+  background-color: #4573D5;
+  color: #FFF;
 }
 .temp-inrange {
-  color: #5cb85c;
+  background-color: #5cb85c;
+  color: #FFF;
 }
 .temp-high {
   background-color: #d9534f;
@@ -20,21 +23,24 @@
 }
 /*humidity*/
 .humidity {
-  font-size: 1.5em;
+  font-size: 5em;
 }
 .humidity-low {
-  color: #00214D;
+  background-color: #4573D5;
+  color: #FFF;
 }
 .humidity-inrange {
   background-color: #5cb85c;
   color: #FFF;
 }
 .humidity-high {
-  color: #d9534f;
+  background-color: #d9534f;
+  color: #FFF;
 }
 .devices {
   background-color: #FFF;
   color: #999;
+  font-size: 1.5em;
 }
 .active,
 .inactive {
@@ -46,4 +52,8 @@ i.active {
 }
 i.inactive {
   color: #d9534f;
+}
+.widgetPadding {
+  margin: 10px;
+  padding: 10px;
 }

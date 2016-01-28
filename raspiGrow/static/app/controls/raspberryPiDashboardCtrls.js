@@ -1,6 +1,6 @@
 ﻿var raspberryPiDashboardCtrls = angular.module('raspberryPiDashboardCtrls', []);
 
-raspberryPiDashboardCtrls.controller('raspberryPiDashboardCtrls', ['$scope', '$http',
+raspberryPiDashboardCtrls.controller('raspberryPiDashboardCtrls', ['$scope', '$http', 'statusMapService',
 
   function ($scope, $http) {
       $http.get('phones/phones.json').success(function(data) {
@@ -10,10 +10,16 @@ raspberryPiDashboardCtrls.controller('raspberryPiDashboardCtrls', ['$scope', '$h
       $scope.orderProp = 'age';
   }]);
 
-raspberryPiDashboardCtrls.controller('raspberryPiDashboardCtrls', ['$scope', '$routeParams',
-  function ($scope, $routeParams) {
+raspberryPiDashboardCtrls.controller('raspberryPiDashboardCtrls', ['$scope', '$routeParams', 'statusMapService',
+
+  function ($scope, $routeParams, statusMapService) {
+      var vm = this;
+      vm.statusMap = statusMapService.statusMap;
+
       var degreesSymbol = '\u00B0';
       $scope.temp = '70' + degreesSymbol + ' F';
+      $scope.actTemp = 40.0;
+      $scope.actHumidity = 80;
       $scope.humidity = '40% RH';
       $scope.statusTopLights = true;
       $scope.statusBottomLights = true;

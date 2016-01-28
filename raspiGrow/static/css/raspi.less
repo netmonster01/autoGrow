@@ -1,4 +1,4 @@
-﻿@blue: #00214D;
+﻿@blue: #4573D5;
 @red: #d9534f;
 @green: #5cb85c;
 @white: #FFF;
@@ -6,48 +6,60 @@
 @grey: #999;
 @baseFontSize: 15px;
 @baseLineHeight: 22px;
+@backGroundColor: #333;
 
 body
 {
     color: @white;
-    background-color: #333333;
+    background-color: @backGroundColor;
 }
 
 .container-fluid {
   /*background-color: #000;*/
 }
-
+/* temperature*/
 .temp {
-    font-size: 1.5em;
+    font-size: 5em;
 }
 .temp-low {
-    color:@blue;
+    background-color: @blue;
+    color: @white;
 }
 .temp-inrange {
-   color:@green;
+     background-color: @green;
+     color:@white;
 }
 .temp-high {
     background-color: @red;
     color: @white;
 }
+
 /*humidity*/
 .humidity {
-    font-size: 1.5em;
+   font-size: 5em;
 }
 .humidity-low {
-     color:@blue;
+     background-color: @blue;
+     color:@white;
 }
 .humidity-inrange {
      background-color: @green;
      color:@white;
 }
 .humidity-high {
-    color:@red;
+     background-color: @red;
+    color:@white;
 }
 .devices{
     background-color:@white;
     color:@grey;
+    font-size: 1.5em;
 }
 .active, .inactive {font-size:40px;cursor:pointer;}
 i.active { color: @green;}
 i.inactive {color: @red;}
+
+.widgetPadding{
+    margin:10px; 
+    padding:10px;
+}

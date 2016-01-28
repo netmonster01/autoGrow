@@ -1,7 +1,8 @@
 ﻿var raspberrypiGrowApp = angular.module('raspberrypiGrowApp', [
   'ngRoute',
   'raspberryPiDashboardCtrls',
-  'raspberryPiSettingsCtrls'
+  'raspberryPiSettingsCtrls',
+  'statusMapService'
 ]);
 
 raspberrypiGrowApp.config(['$routeProvider',

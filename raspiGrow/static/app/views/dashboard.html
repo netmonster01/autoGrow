@@ -1,15 +1,70 @@
 <div class="container">
     <div class="row">
+        <div class="text-center col-md-4">
+            <div class="widgetPadding" ng-class="{'temp-high': actTemp>=69, 'temp-inrange': (actTemp>=65 && actTemp<=84), 'temp-low':actTemp<69}">
+                <h2>Temperature:</h2>
+                <div><span class="temp">{{temp}}</span></div>
+            </div>
+        </div>
+        <div class="text-center col-md-4 ">
+            <div class="widgetPadding" ng-class="{'humidity-high': actHumidity>=60, 'humidity-inrange': (actHumidity>=30 && actHumidity<=59), 'humidity-low':actHumidity<=59}" >
+                <h2>Humidity:</h2>
+                <div><span class="humidity">{{humidity}}</span></div>
+            </div>
+        </div>
+        <div class="text-center col-md-4">
+            <div class="widgetPadding devices">
+                <h2>Devices:</h2>
+                <div class="row">
+                    <div class="row"><h3>Lights:</h3></div>
+                    <div class="col-md-6">
+                        Top Lights
+                        <div>
+                            <i class="fa fa-toggle-on active" ng-if="statusTopLights == true" ng-click="changeTopLightStatus();"></i>
+                            <i class="fa fa-toggle-on fa-rotate-180 inactive" ng-if="statusTopLights == false" ng-click="changeTopLightStatus();"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        Bottom Lights
+                        <div>
+                            <i class="fa fa-toggle-on active" ng-if="statusBottomLights == true" ng-click="changeBottomLightStatus();"></i>
+                            <i class="fa fa-toggle-on fa-rotate-180 inactive" ng-if="statusBottomLights == false" ng-click="changeBottomLightStatus();"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div  class="row"><h3>Fans:</h3></div>
+                    <div class="col-md-6">
+                        Top Fans
+                        <div>
+                            <i class="fa fa-toggle-on active" ng-if="statusTopFan == true" ng-click="changeTopFanStatus();"></i>
+                            <i class="fa fa-toggle-on fa-rotate-180 inactive" ng-if="statusTopFan == false" ng-click="changeTopFanStatus();"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        Bottom Fans
+                        <div>
+                            <i class="fa fa-toggle-on active" ng-if="statusBottomFan == true" ng-click="changeBottomFanStatus();"></i>
+                            <i class="fa fa-toggle-on fa-rotate-180 inactive" ng-if="statusBottomFan == false" ng-click="changeBottomFanStatus();"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<div class="row">
         <div class="col-md-4 temp temp-high">
             <div class="row">
                 Current Temperature:
             </div>
             <div class="col-md-12"><span>{{temp}}</span></div>
         </div>
-        <div class="col-md-4 humidity humidity-inrange">
-            <div class="row">
-                Current Humidity:
-                <div class="col-md-12"><span>{{humidity}}</span></div>
+        <div class="col-md-4 humidity humidity-inrange widgetPadding">
+            <div class="widgetPadding">
+                <div class="row">
+                    Current Humidity:
+                    <div class="col-md-12"><span>{{humidity}}</span></div>
+                </div>
             </div>
         </div>
         <div class="col-md-4 devices">
@@ -22,7 +77,7 @@
                         <i class="fa fa-toggle-on active" ng-if="statusTopLights == true" ng-click="changeTopLightStatus();"></i>
                         <i class="fa fa-toggle-on fa-rotate-180 inactive" ng-if="statusTopLights == false" ng-click="changeTopLightStatus();"></i>
                     </div>
-                    <!--<pre>{{ status }}</pre>-->
+                    <pre>{{ status }}</pre>
                 </div>
                 <div class="col-md-6">
                     Bottom Lights
@@ -50,5 +105,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 </div>
